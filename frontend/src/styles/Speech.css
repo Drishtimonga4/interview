@@ -1,0 +1,40 @@
+.speech-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 30px auto; /* Added margin top and bottom */
+  padding: 20px;
+  text-align: center;
+  background-color: #f8f9fa; /* Added background color */
+  border-radius: 10px; /* Added border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.speech-container h2 {
+  color: #343a40; /* Added heading color */
+  margin-bottom: 20px;
+}
+
+.record-button {
+  background-color: #ff5722;
+  color: white;
+  padding: 12px 20px;
+  border: none; /* Removed border */
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer; /* Added cursor style */
+  transition: background-color 0.3s ease; /* Added transition */
+}
+
+.record-button:hover {
+  background-color: #e64a19;
+}
+
+.analysis-result {
+  margin-top: 20px; /* Increased margin */
+  font-size: 1rem;
+  color: #4caf50;
+  background-color: #e9ecef; /* Added background color */
+  padding: 15px; /* Added padding */
+  border-radius: 6px; /* Added border radius */
+  text-align: left; /* Aligned text to left */
+}

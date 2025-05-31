@@ -1,0 +1,45 @@
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px; /* Increased padding */
+  background-color: #f8f9fa; /* Added background color */
+  border-radius: 10px; /* Added border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow */
+  max-width: 700px; /* Added max-width */
+  margin: 30px auto; /* Added margin */
+}
+
+.video-container h2 {
+  color: #343a40; /* Added heading color */
+  margin-bottom: 20px;
+}
+
+.video-box {
+  width: 100%;
+  max-width: 600px;
+  background: #2a2a3c; /* Updated background color */
+  border: none; /* Removed border */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added box shadow */
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px; /* Added margin bottom */
+}
+
+.start-recording {
+  background-color: #ff1744;
+  color: white;
+  padding: 12px 24px;
+  border: none; /* Removed border */
+  border-radius: 8px;
+  margin-top: 15px;
+  font-size: 1rem; /* Added font size */
+  cursor: pointer; /* Added cursor style */
+  transition: background-color 0.3s ease; /* Added transition */
+}
+
+.start-recording:hover {
+  background-color: #d50000;
+}

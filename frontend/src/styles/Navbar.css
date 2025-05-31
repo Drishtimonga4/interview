@@ -1,0 +1,88 @@
+/* Navbar Styling */
+.navbar {
+  width: 100%;
+  background: #02082b; /* Light Blue Background */
+  padding: 10px 20px; /* Reduced Padding */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.logo img {
+  height: 20px; /* Adjust the height as needed */
+  /* Add more styles as needed */
+  margin-right: auto; /* Push the logo to the left */
+}
+@media (max-width: 768px) {
+  .logo img {
+    height: 10px; /* Smaller logo on smaller screens */
+  }
+}
+.logo span {
+  font-size: 1.2em; /* Adjust font size as needed */
+  color: white; /* Adjust text color as needed */
+  margin-left: 10px; /* Adjust spacing as needed */
+  vertical-align: middle; /* Align text vertically with the image */
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+.nav-links a.active {
+  background: none !important; /* Background hatane ke liye */
+  color: #dacbcb !important; /* Default color */
+}
+
+.nav-links a {
+  color: #dacbcb;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #75a8df;
+}
+
+/* Buttons */
+.nav-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.login-button {
+  color: #e9e1e1;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.login-button:hover {
+  background: #e0e5ff;
+}
+
+.start-free {
+  background: #007bff;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.start-free:hover {
+  background: #0056b3;
+}

@@ -1,0 +1,120 @@
+/* Full Page Cover */
+.login-page {
+  width: 100vw;
+  height: 100vh;
+  background: #f4f6ff; /* Light Theme */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Modal-like Login Box */
+.login-box {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 30px;
+  max-width: 350px;
+  width: 90%;
+  position: relative;
+}
+
+/* Logo (Top Left) */
+.login-logo {
+  position: absolute;
+  top: 15px; /* Adjust position */
+  left: 15px;
+  width: 60px; /* Adjust size */
+}
+
+/* Close Button (Top Right) */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #6c757d;
+}
+
+/* Headings */
+.login-box h2 {
+  color: #1a1a2e;
+  margin-top: 30px; /* Space below logo */
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+/* Subtext */
+.login-subtext {
+  font-size: 14px;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+.login-box input {
+  width: calc(100% - 24px);
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 14px;
+  background: #f8f9fa;
+  outline: none;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-box input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+}
+
+/* Login Button */
+.login-btn {
+  width: fit-content; /* Make the button width fit its content */
+  padding: 12px 20px;
+  background-color: #dc3545; /* Use theme color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 20px auto; /* Center the button horizontally */
+  display: block;
+}
+
+/* Signup Text */
+.signup-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #495057;
+}
+
+.signup-text a {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
+
+/* Forgot Password Link */
+.forgot-password {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}

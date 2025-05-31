@@ -1,0 +1,75 @@
+.text-interview-container {
+  width: 100%;
+  max-width: 800px; /* Increased max-width for better readability */
+  margin: 30px auto;
+  padding: 40px; /* Increased padding */
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif; /* Added font for better readability */
+}
+
+.text-interview-container h1 {
+  color: #343a40;
+  margin-bottom: 10px;
+}
+
+.text-interview-container p {
+  color: #495057;
+  margin-bottom: 20px;
+  line-height: 1.6; /* Improved line-height for readability */
+}
+
+.chat-box {
+  background-color: #f0f0f5; /* Light background for chat box */
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  height: 300px; /* Set a fixed height for the chat box */
+  overflow-y: auto; /* Add vertical scrollbar if content overflows */
+}
+
+.chat-box p {
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.chat-box .user {
+  background-color: #007bff; /* User message background color */
+  color: white;
+  text-align: right; /* Align user messages to the right */
+}
+
+.chat-box .interviewer { /* Style for interviewer messages (if you add them later) */
+  background-color: #e9ecef;
+  color: #343a40;
+  text-align: left;
+}
+
+.input-area {
+  display: flex;
+  align-items: center;
+}
+
+.input-area input[type="text"] {
+  flex-grow: 1; /* Allow input field to take up available space */
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.input-area button {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-area button:hover {
+  background-color: #218838;
+}

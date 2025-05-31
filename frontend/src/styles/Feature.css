@@ -1,0 +1,24 @@
+.feature-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.feature-item {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  background: #222;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+.feature-item:hover {
+  background: #333;
+  transform: translateY(-3px);
+}
